@@ -6,20 +6,20 @@ visitors = 0
 
 """ Turn the visitor count into a nice string (1st, 2nd, 3rd etc. ). """
 def get_visitor_index(visitors):
-    suffix = ""
+    suffix = ''
     if visitors in [11, 12, 13]:
-        suffix = "th"
+        suffix = 'th'
     else:
         last_digit = visitors % 10
         if last_digit == 1:
-            suffix = "st"
+            suffix = 'st'
         elif last_digit == 2:
-            suffix = "nd"
+            suffix = 'nd'
         elif last_digit == 3:
-            suffix = "rd"
+            suffix = 'rd'
         else:
-            suffix = "th"
-    return "%d%s" % (visitors, suffix)
+            suffix = 'th'
+    return '%d%s' % (visitors, suffix)
 
 """ Root page with visitor counter. """
 @route('/')
