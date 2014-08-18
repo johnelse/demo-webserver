@@ -1,0 +1,10 @@
+.content {
+    display:        block;
+    margin:         auto;
+}
+
+.main {
+    font-size:      32px;
+    font-family:    arial;
+    text-align:     center;
+}
