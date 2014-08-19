@@ -6,13 +6,13 @@
     <body>
         <div class="main">
             <div class="content">
-                <img src="static/images/balloons.gif">
+                <img src="static/images/xen-panda-anim.gif">
             </div>
             <div class="content">
                 Greetings! You are the {{visitor_index}} visitor!
             </div>
             <div class="content">
-                <img src="static/images/balloons.gif">
+                <img src="static/images/xen-panda-anim.gif">
             </div>
         </div>
     </body>
