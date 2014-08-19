@@ -18,7 +18,7 @@ def write_visitor_count(visitors):
 """ Turn the visitor count into a nice string (1st, 2nd, 3rd etc. ). """
 def get_visitor_index(visitors):
     suffix = ''
-    if visitors in [11, 12, 13]:
+    if (visitors % 100) in [11, 12, 13]:
         suffix = 'th'
     else:
         last_digit = visitors % 10
